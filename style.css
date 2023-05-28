@@ -1,0 +1,50 @@
+body {
+    background-color: #ffffff;
+    color: #212121;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #105bd8;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #dd361c;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.photo-container {
+    margin-top: 20px;
+}
+
+img{
+    max-width: 700px;
+    max-height: 700px;
+    width: auto;
+    margin: 0 auto; 
+}
+
+.error-message {
+    color: #dd361c;
+}
